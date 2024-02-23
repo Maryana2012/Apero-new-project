@@ -129,17 +129,20 @@ h1 {
 .hero-section-container {
   position: relative;
   display: flex;
-  width: 1440px;
   height: 850px;
   min-width: 0;
   margin: 0 auto;
 }
 
-.hero-section-orange {
+.hero-section {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  width: 100%;
+  margin: 0 auto;
+  width: 1440px;
+  margin-top: 119px;
+}
+
+.hero-section-orange {
   background-color: var(--orange-dark);
 }
 
@@ -432,12 +435,16 @@ h1 {
   right: 0;
 }
 
+.advantages {
+  width: 100%;
+  background-color: var(--grey-more-light);
+}
+
 .advantages-container {
   width: 1280px;
   height: 651px;
   padding: 80px;
   margin: 0 auto;
-  background-color: var(--grey-more-light);
 }
 
 .advantages-list {

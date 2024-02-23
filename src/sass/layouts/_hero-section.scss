@@ -1,16 +1,20 @@
 .hero-section-container{
     position: relative;
     display: flex;
-    width: 1440px;
+    // width: 1440px;
     height: 850px;
     min-width: 0;
     margin: 0 auto; 
 }
-.hero-section-orange{
+.hero-section{
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    width: 100%;
+    margin: 0 auto;
+    width: 1440px;
+    margin-top: 119px;
+}
+.hero-section-orange{
+    
     background-color: var(--orange-dark);
 }
 .hero-section-purple{
