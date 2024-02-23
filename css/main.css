@@ -115,7 +115,7 @@ h1 {
   border: none;
   border-radius: 24px;
   padding: 16px 24px;
-  background-color: var(--grey-light);
+  background-color: var(--grey-more-light);
   align-items: center;
   justify-content: center;
   font-family: "Fixel Display", sans-serif;
@@ -437,7 +437,7 @@ h1 {
   height: 651px;
   padding: 80px;
   margin: 0 auto;
-  background-color: var(--grey-light);
+  background-color: var(--grey-more-light);
 }
 
 .advantages-list {
