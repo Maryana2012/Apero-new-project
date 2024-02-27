@@ -594,7 +594,12 @@ h1 {
 }
 
 .partners__blocks {
+  display: flex;
+  align-items: center;
   gap: 20px;
+  animation: scroll 20s linear infinite;
+  animation-iteration-count: infinite;
+  white-space: nowrap;
 }
 
 .partners__block {
@@ -605,4 +610,13 @@ h1 {
   width: 305px;
   height: 120px;
   background-color: var(--white);
+}
+
+@keyframes scroll {
+  0%, 100% {
+    transform: translateX(100%);
+  }
+  50% {
+    transform: translateX(-100%);
+  }
 }/*# sourceMappingURL=main.css.map */
