@@ -48,6 +48,27 @@ h1 {
   background-color: var(--grey-more-light);
 }
 
+.title {
+  font-family: "Tektur", sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 120%;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--black);
+  margin-bottom: 32px;
+}
+
+.subtitle {
+  font-family: "Tektur", sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 120%;
+  text-align: center;
+  color: var(--white);
+  margin-bottom: 16px;
+}
+
 :root {
   --black: #0f1019;
   --white: #fafafa;
@@ -285,17 +306,6 @@ h1 {
   gap: 24px;
 }
 
-.collection-title {
-  font-family: "Tektur", sans-serif;
-  font-weight: 600;
-  font-size: 40px;
-  line-height: 120%;
-  text-transform: uppercase;
-  text-align: center;
-  color: var(--black);
-  margin-bottom: 16px;
-}
-
 .collection-text-main {
   font-family: "Fixel Display", sans-serif;
   font-weight: 400;
@@ -304,16 +314,6 @@ h1 {
   text-align: center;
   color: var(--black);
   margin-bottom: 40px;
-}
-
-.collection-subtitle {
-  font-family: "Tektur", sans-serif;
-  font-weight: 600;
-  font-size: 40px;
-  line-height: 120%;
-  text-align: center;
-  color: var(--white);
-  margin-bottom: 16px;
 }
 
 .collection-text {
@@ -484,12 +484,7 @@ h1 {
 }
 
 .statistic__title {
-  font-family: "Tektur", sans-serif;
-  font-weight: 600;
-  font-size: 40px;
-  line-height: 120%;
-  text-transform: uppercase;
-  color: var(--black);
+  text-align: start;
   margin-bottom: 40px;
 }
 

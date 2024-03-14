@@ -2,16 +2,6 @@
     display: flex;
     gap: 24px;
 }
-.collection-title{
-    font-family: 'Tektur', sans-serif;
-    font-weight: 600;
-    font-size: 40px;
-    line-height: 120%;
-    text-transform: uppercase;
-    text-align: center;
-    color: var(--black);
-    margin-bottom: 16px;
-}
 
 .collection-text-main{
     font-family: 'Fixel Display', sans-serif;
@@ -22,15 +12,6 @@
     color: var(--black);
     margin-bottom: 40px;
 }
-.collection-subtitle{
-    font-family: 'Tektur', sans-serif;
-    font-weight: 600;
-    font-size: 40px;
-    line-height: 120%;
-    text-align: center;
-    color: var(--white);
-    margin-bottom: 16px;
- }
 
 .collection-text{
     display: flex;

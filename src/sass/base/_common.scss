@@ -17,13 +17,29 @@ h1{
     padding: 80px;
     margin: 0 auto;
 }
-// .container__white{
-//     width: 1280px;
-//     padding: 80px;
-//     margin: 0 auto;
-// }
 
 .container__grey{
    width: 100%;
    background-color: var(--grey-more-light);
+}
+
+.title{
+    font-family: 'Tektur', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 120%;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--black);
+    margin-bottom: 32px;
+}
+
+.subtitle{
+    font-family: 'Tektur', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 120%;
+    text-align: center;
+    color: var(--white);
+    margin-bottom: 16px;
 }
