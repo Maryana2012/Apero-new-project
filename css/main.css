@@ -37,15 +37,14 @@ h1 {
   display: none;
 }
 
-.container__white {
+.container {
   width: 1280px;
-  padding: 160px 80px;
+  padding: 80px;
   margin: 0 auto;
 }
 
-.container__color {
+.container__grey {
   width: 100%;
-  margin: 0 auto;
   background-color: var(--grey-more-light);
 }
 
@@ -436,12 +435,6 @@ h1 {
   right: 0;
 }
 
-.advantages-container {
-  width: 1280px;
-  padding: 80px;
-  margin: 0 auto;
-}
-
 .advantages-list {
   width: 365px;
   padding: 24px;
@@ -586,13 +579,6 @@ h1 {
   color: var(--black);
 }
 
-.partners__container {
-  width: 1280px;
-  height: 580px;
-  padding: 80px;
-  margin: 0 auto;
-}
-
 .partners__blocks-first {
   display: flex;
   flex-direction: row;
@@ -610,13 +596,4 @@ h1 {
   height: 104px;
   padding: 5px;
   background-color: var(--white);
-}
-
-@keyframes scroll {
-  50% {
-    transform: translateX(100%);
-  }
-  50% {
-    transform: translateX(-100%);
-  }
 }/*# sourceMappingURL=main.css.map */
