@@ -46,6 +46,8 @@ h1 {
 .container__blue {
   position: relative;
   width: 100%;
+  padding: 0;
+  padding-top: 80px;
   padding-bottom: 160px;
   background: linear-gradient(153deg, #12a1de 0%, #c6ffd9 100%);
 }
@@ -533,11 +535,6 @@ h1 {
   background-color: var(--white);
 }
 
-.question__container {
-  display: flex;
-  flex-direction: row;
-}
-
 .question__form {
   width: 582px;
   padding: 24px;
@@ -602,5 +599,5 @@ h1 {
 .question_image-milk {
   position: absolute;
   bottom: 200px;
-  right: 161px;
+  right: 0;
 }/*# sourceMappingURL=main.css.map */

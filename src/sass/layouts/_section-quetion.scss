@@ -1,7 +1,8 @@
-.question__container{
-  display: flex;
-  flex-direction: row;
-}
+// .question__container{
+//   display: flex;
+//   flex-direction: row;
+//   justify-content: space-between;
+// }
 
 .question__form{
     // position: relative;
@@ -61,6 +62,8 @@
 }
 .question_image-milk{
     position: absolute;
+    // width: 358px;
+    // height: 511px;
     bottom: 200px;
-    right: 161px;
+    right: 0;
 }
