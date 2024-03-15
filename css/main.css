@@ -120,14 +120,14 @@ h1 {
   margin: 0;
 }
 
-.nav-list {
+.nav__list {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 32px;
 }
 
-.nav-link {
+.nav__link {
   display: flex;
   height: 35px;
   align-items: center;
@@ -136,13 +136,11 @@ h1 {
   color: var(--white);
 }
 
-.header-button {
+.header__button {
   display: flex;
-  width: 229px;
-  height: 43px;
   border: none;
   border-radius: 24px;
-  padding: 8px 8px 8px 24px;
+  padding: 16px 24px;
   background-color: var(--grey-more-light);
   align-items: center;
   font-family: "Fixel Display", sans-serif;
@@ -153,58 +151,48 @@ h1 {
   margin-left: 32px;
 }
 
-.hero-section-container {
+.hero__section-container {
   position: relative;
   display: flex;
-  height: 850px;
   min-width: 0;
   margin: 0 auto;
 }
 
-.hero-section {
+.hero__container {
   display: flex;
   align-items: center;
   margin: 0 auto;
   width: 1440px;
   margin-top: 119px;
+  padding-bottom: 88px;
 }
 
-.hero-section-orange {
+.hero__container-orange {
   background-color: var(--orange-dark);
 }
 
-.hero-section-purple {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
+.hero__container-purple {
   background-color: var(--purple);
 }
 
-.hero-section-navy {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
+.hero__container-navy {
   background-color: var(--navy);
 }
 
-.hero-section-green {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
+.hero__container-green {
   background-color: var(--green);
 }
 
-.hero-text-container {
+.hero__text-container {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
   width: 800px;
   margin-left: 88px;
 }
 
-.hero-title {
+.hero__title {
   font-family: var(--font-title);
   font-weight: 700;
   font-size: 72px;
@@ -214,7 +202,7 @@ h1 {
   margin-bottom: 10px;
 }
 
-.hero-subtitle {
+.hero__subtitle {
   font-family: var(--font-title);
   font-weight: 400;
   font-size: 64px;
@@ -225,13 +213,13 @@ h1 {
   margin-bottom: 20px;
 }
 
-.hero-text {
-  font-size: 18px;
+.hero__text {
+  text-align: left;
   color: var(--white);
   margin-bottom: 24px;
 }
 
-.hero-link {
+.hero__link {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -246,12 +234,12 @@ h1 {
   color: var(--black);
 }
 
-.image-container {
+.hero__image-container {
   position: relative;
   margin-right: 188px;
 }
 
-.image-gradient-orange {
+.hero__image {
   position: absolute;
   z-index: -100;
   transform: translate(-5%, -5%);
@@ -260,52 +248,23 @@ h1 {
   width: 500px;
   height: 500px;
   border-radius: 100%;
+  filter: blur(250px);
+}
+
+.hero__image-orange {
   background: radial-gradient(circle at center, rgb(247, 211, 133) 0%, rgb(243, 149, 64) 92%);
-  filter: blur(250px);
 }
 
-.image-gradient-violet {
-  position: absolute;
-  z-index: -100;
-  transform: translate(-5%, -5%);
-  top: 0;
-  left: 0;
-  width: 500px;
-  height: 500px;
-  border-radius: 100%;
+.hero__image-violet {
   background: radial-gradient(circle at center, rgb(221, 221, 219) 0%, rgb(106, 80, 138) 92%);
-  filter: blur(250px);
 }
 
-.image-gradient-navy {
-  position: absolute;
-  z-index: -100;
-  transform: translate(-5%, -5%);
-  top: 0;
-  left: 0;
-  width: 500px;
-  height: 500px;
-  border-radius: 100%;
-  filter: blur(250px);
+.hero__image-navy {
   background: radial-gradient(circle at center, rgb(118, 214, 249) 0%, rgb(58, 74, 87) 92%);
 }
 
-.image-gradient-green {
-  position: absolute;
-  z-index: -10;
-  transform: translate(-5%, -5%);
-  top: 0;
-  left: 0;
-  width: 500px;
-  height: 500px;
-  border-radius: 100%;
-  filter: blur(250px);
+.hero__image-green {
   background: radial-gradient(circle at center, rgb(118, 214, 249) 0%, rgb(21, 167, 160) 92%);
-}
-
-.collection__container {
-  display: flex;
-  gap: 24px;
 }
 
 .collection__subtitle {
@@ -333,6 +292,11 @@ h1 {
   font-size: 16px;
   line-height: 140%;
   color: var(--white);
+}
+
+.collection__container {
+  display: flex;
+  gap: 24px;
 }
 
 .collection__block {
