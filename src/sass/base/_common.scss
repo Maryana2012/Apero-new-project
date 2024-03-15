@@ -17,6 +17,7 @@ h1{
    background-color: var(--grey-more-light);
 }
 .container__blue{
+    position: relative;
     width: 100%;
     padding-bottom: 160px;
     background: linear-gradient(153deg, #12a1de 0%, #c6ffd9 100%);
