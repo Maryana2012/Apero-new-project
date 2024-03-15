@@ -1,10 +1,10 @@
 body{
-    font-family: 'Fixel Display', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 140%;
-    // letter-spacing: 0.02em;
-    color: var(--black);
+    // font-family: 'Fixel Display', sans-serif;
+    // font-weight: 400;
+    // font-size: 16px;
+    // line-height: 140%;
+    // // letter-spacing: 0.02em;
+    // color: var(--black);
     margin: 0;
 }
 
@@ -33,13 +33,19 @@ h1{
     color: var(--black);
     margin-bottom: 32px;
 }
-
 .subtitle{
-    font-family: 'Tektur', sans-serif;
-    font-weight: 600;
-    font-size: 32px;
-    line-height: 120%;
+    font-family: 'Fixel Display', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
     text-align: center;
-    color: var(--white);
-    margin-bottom: 16px;
+    color: var(--black);
+    margin-bottom: 40px;
+}
+.text{
+    font-family: 'Fixel Display', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%; 
+    // text-align: center;
 }

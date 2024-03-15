@@ -25,11 +25,6 @@ img {
 }
 
 body {
-  font-family: "Fixel Display", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 140%;
-  color: var(--black);
   margin: 0;
 }
 
@@ -60,13 +55,20 @@ h1 {
 }
 
 .subtitle {
-  font-family: "Tektur", sans-serif;
-  font-weight: 600;
-  font-size: 32px;
-  line-height: 120%;
+  font-family: "Fixel Display", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
   text-align: center;
-  color: var(--white);
-  margin-bottom: 16px;
+  color: var(--black);
+  margin-bottom: 40px;
+}
+
+.text {
+  font-family: "Fixel Display", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
 }
 
 :root {
@@ -301,30 +303,28 @@ h1 {
   background: radial-gradient(circle at center, rgb(118, 214, 249) 0%, rgb(21, 167, 160) 92%);
 }
 
-.collection-container-group {
+.collection__container {
   display: flex;
   gap: 24px;
 }
 
-.collection-text-main {
-  font-family: "Fixel Display", sans-serif;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 140%;
+.collection__subtitle {
+  font-family: "Tektur", sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 120%;
   text-align: center;
-  color: var(--black);
-  margin-bottom: 40px;
+  color: var(--white);
+  margin-bottom: 16px;
 }
 
-.collection-text {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: "Fixel Display", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 140%;
+.collection__text {
+  margin-bottom: 48px;
   color: var(--white);
+}
+
+.collection__text-small {
+  margin-bottom: 130px;
 }
 
 .collection-link {
@@ -335,101 +335,80 @@ h1 {
   color: var(--white);
 }
 
-.collection-container-snax {
+.collection__block {
   position: relative;
   display: flex;
-  text-align: center;
-  justify-content: center;
   width: 100%;
   height: 360px;
   border-radius: 24px;
-  background: linear-gradient(153deg, #12a1de 0%, #c6ffd9 100%);
   margin-bottom: 24px;
 }
 
-.popcorn-container {
+.collection__block-blue {
+  text-align: center;
+  justify-content: center;
+  background: linear-gradient(153deg, #12a1de 0%, #c6ffd9 100%);
+}
+
+.collection__block-yellow {
+  width: 630px;
+  height: 312px;
+  padding: 24px;
+  background: linear-gradient(136deg, #f5a609 14.5%, #fff9a8 100%);
+}
+
+.collection__block-pink {
+  width: 630px;
+  height: 312px;
+  padding: 24px;
+  background: linear-gradient(159deg, #e070a0 0%, #ffc0d5 100%);
+}
+
+.collection__block-orange {
+  text-align: center;
+  justify-content: center;
   background: linear-gradient(137deg, #de4f12 12.37%, #f7d385 100%);
 }
 
-.collection-text-container-snax {
+.collection__block-text {
   display: flex;
+  width: 100%;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  width: 550px;
-  padding-top: 65px;
-  padding-bottom: 65px;
 }
 
-.text-snax {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 48px;
+.collection__block-text-small {
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 
-.image-snax-bacon {
+.image__surprise {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.image__snax-bacon {
   position: absolute;
   height: 380px;
   bottom: -20px;
   left: -40px;
 }
 
-.image-snax-onion {
+.image__snax-onion {
   position: absolute;
   bottom: 0;
   right: 0;
 }
 
-.popcorn-caramel {
+.image__popcorn-caramel {
   position: absolute;
   bottom: 0;
   left: 0;
   height: 300px;
 }
 
-.popcorn-ready {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-}
-
-.collection-container-orange {
-  width: 630px;
-  height: 312px;
-  position: relative;
-  border-radius: 24px;
-  padding: 24px 24px 24px 24px;
-  background: linear-gradient(136deg, #f5a609 14.5%, #fff9a8 100%);
-  margin-bottom: 24px;
-}
-
-.pink {
-  background: linear-gradient(159deg, #e070a0 0%, #ffc0d5 100%);
-}
-
-.collection-text-container-orange {
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-  width: 100%;
-}
-
-.collection-subtitle-group {
-  font-family: "Tektur", sans-serif;
-  font-weight: 600;
-  font-size: 32px;
-  line-height: 120%;
-  text-align: center;
-  color: var(--white);
-  margin-bottom: 16px;
-}
-
-.text-orange {
-  margin-bottom: 130px;
-}
-
-.image-surprise {
+.image__popcorn-ready {
   position: absolute;
   bottom: 0;
   right: 0;
