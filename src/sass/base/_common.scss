@@ -16,6 +16,11 @@ h1{
    width: 100%;
    background-color: var(--grey-more-light);
 }
+.container__blue{
+    width: 100%;
+    padding-bottom: 160px;
+    background: linear-gradient(153deg, #12a1de 0%, #c6ffd9 100%);
+}
 
 .title{
     font-family: 'Tektur', sans-serif;
@@ -41,20 +46,26 @@ h1{
     font-weight: 400;
     font-size: 16px;
     line-height: 140%; 
+    color: var(--black);
 }
-// .button{
-//     display: flex;
-//     // width: 229px;
-//     height: 43px;
-//     border: none;
-//     border-radius: 32px;
-//     padding: 8px 8px 8px 24px;
-//     background-color: var(--grey-more-light);
-//     align-items: center;
-//     font-family: 'Fixel Display', sans-serif;
-//     font-weight: 500;
-//     font-size: 16px;
-//     line-height: 120%;
-//     color: var(--black);
-//     margin-left: 32px;  
-// }
+.button{
+    display: flex;
+    border: none;
+    border-radius: 32px;
+    padding: 8px 8px 8px 24px;
+    align-items: center;
+    font-family: 'Fixel Display', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 140%;
+    color: var(--black);  
+}
+.button__image{
+    margin-left: 12px;
+}
+.section__link{
+    font-family: 'Fixel Display', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+}

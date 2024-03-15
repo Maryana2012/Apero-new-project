@@ -14,11 +14,7 @@
 .collection__text-small{
     margin-bottom: 130px;
 }
-.collection-link{
-    font-family: 'Fixel Display', sans-serif;;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 140%;
+.collection__link{
     color: var(--white);
 }
 .collection__container{
@@ -60,7 +56,6 @@
     width: 100%;
     flex-direction: column;
     justify-content: center;
-    // padding: 65px 0;
 }
 .collection__block-text-small{
     align-items: flex-start; 
