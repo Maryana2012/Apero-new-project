@@ -1,14 +1,15 @@
 .partners__blocks-first{
     display: flex;
     flex-direction: row;
-    // align-items: center;
-    // justify-content: center;
     gap: 20px;
-    // overflow: hidden;
-    animation: scroll 20s linear infinite;
-    animation-iteration-count:infinite;
-    // white-space: nowrap;
+    overflow: hidden;
+    // animation: scroll 20s linear infinite;
+    // animation-iteration-count:infinite;
 }
+// .partner__container{
+//     display: flex;
+//     flex-direction: row;
+// }
 .partners__block{
     display: flex;
     align-items: center;
@@ -17,8 +18,12 @@
     flex: 0 0 289px;
     height: 104px;
     padding: 5px;
-    background-color: var(--white);
-    
+    background-color: var(--white);    
+}
+.slick-initialized .slick-slide {
+    display: flex;
+    // gap: 20px;
+    justify-content: space-between;
 }
 
 // @keyframes scroll {

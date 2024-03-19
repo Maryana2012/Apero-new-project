@@ -1,20 +1,11 @@
-// .question__container{
-//   display: flex;
-//   flex-direction: row;
-//   justify-content: space-between;
-// }
-
 .question__form{
-    // position: relative;
     width: 582px;
-    // height: 533px;
     padding: 24px;
     border-radius: 24px;
     background-color: var(--white);
     margin: 0 auto;
 }
 .question__title{
-    // position: relative;
     text-align: left;
     margin-bottom: 24px;
 }
@@ -62,8 +53,6 @@
 }
 .question_image-milk{
     position: absolute;
-    // width: 358px;
-    // height: 511px;
     bottom: 200px;
     right: 0;
 }
