@@ -52,6 +52,12 @@ h1 {
   background: linear-gradient(153deg, #12a1de 0%, #c6ffd9 100%);
 }
 
+.container__orange {
+  width: 100%;
+  padding-top: 130px;
+  background: linear-gradient(137deg, #de4f12 12.37%, #f7d385 100%);
+}
+
 .title {
   font-family: "Tektur", sans-serif;
   font-weight: 600;
@@ -604,4 +610,47 @@ h1 {
   position: absolute;
   bottom: 200px;
   right: 0;
+}
+
+.about__hero-title {
+  font-family: "Tektur", sans-serif;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 120%;
+  text-transform: uppercase;
+  color: var(--white);
+  margin-bottom: 32px;
+}
+
+.about__text {
+  color: var(--white);
+  margin-bottom: 24px;
+}
+
+.about__hero-block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about__hero__link {
+  width: 211px;
+}
+
+.about__offer-container {
+  border-radius: 24px;
+  padding: 24px;
+  background-color: var(--white);
+}
+
+.about__offer-title {
+  font-family: "Fixel Display", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 140%;
+  color: var(--orange-dark);
+  margin-bottom: 16px;
+}
+
+.about__offer-text {
+  color: var(--orange-dark);
 }/*# sourceMappingURL=main.css.map */
