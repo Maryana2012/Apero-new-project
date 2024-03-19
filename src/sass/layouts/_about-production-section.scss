@@ -1,0 +1,35 @@
+.about__production__container-grey{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 24px;
+    padding: 276px 217px 276px 24px;
+    width: 389px;
+    background-color: var(--grey-more-light);
+}
+.about__production__container-white{
+    display:flex ;
+    flex-direction: column;
+    width: 413px;
+}
+.about__production-title{
+    margin: 0;
+}
+.about__production-number{
+    display: flex;
+    width: 200px;
+    font-family: "Fixel Display", sans-serif;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: var(--orange-dark);
+    margin-right: 20px;
+}
+.about__production__text-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
+}
