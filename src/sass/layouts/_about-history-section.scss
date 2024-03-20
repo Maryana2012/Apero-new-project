@@ -1,0 +1,24 @@
+.about__history-title{
+text-align: start;
+}
+.about__history__block-container{
+    display: flex;
+    gap: 20px;
+}
+.about__history-block{
+    border-radius: 24px;
+    padding: 24px;
+    width: 365px;
+    height: 244px;
+    background-color: var(--white);
+    margin-bottom: 40px;
+}
+.about__history-subtitle{
+    display: flex;
+    justify-content: flex-start;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.text__orange{
+    color: var(--orange-dark);
+}

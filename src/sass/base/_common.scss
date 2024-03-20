@@ -55,6 +55,13 @@ h1{
     line-height: 140%; 
     color: var(--black);
 }
+.number{
+    font-family: "Fixel Display", sans-serif;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+}
 .button{
     display: flex;
     border: none;
