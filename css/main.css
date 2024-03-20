@@ -119,6 +119,14 @@ h1 {
   line-height: 140%;
 }
 
+.white {
+  color: var(--white);
+}
+
+.orange {
+  color: var(--orange-dark);
+}
+
 :root {
   --black: #0f1019;
   --white: #fafafa;
@@ -759,6 +767,40 @@ h1 {
   margin-bottom: 24px;
 }
 
-.text__orange {
-  color: var(--orange-dark);
+.about__description-title {
+  text-align: start;
+}
+
+.about__description-container {
+  display: flex;
+  gap: 20px;
+}
+
+.about__description-block {
+  border-radius: 24px;
+  padding: 24px;
+  width: 257px;
+  height: 217px;
+  margin-bottom: 20px;
+}
+
+.block__orange {
+  background: linear-gradient(137deg, #de4f12 12.37%, #f7d385 100%);
+}
+
+.block__white {
+  border: 1px;
+  border: 2px solid var(--orange-dark);
+}
+
+.block__orange-big {
+  border-radius: 24px;
+  padding: 24px;
+  width: 582px;
+  height: 217px;
+  background: linear-gradient(137deg, #de4f12 12.37%, #f7d385 100%);
+}
+
+.about__description-text {
+  margin-bottom: 48px;
 }/*# sourceMappingURL=main.css.map */
