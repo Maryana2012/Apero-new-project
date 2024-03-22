@@ -4,16 +4,82 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Products</title>
-    <link
+    <!-- <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
     crossorigin="anonymous"
     referrerpolicy="no-referrer"
-  />
+  /> -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../src/fonts/fonts.css">
     <link rel="stylesheet" href="../css/main.min.css">
 </head>
 <body>
-    
+  <header class="header-container">
+    <div class="header">
+      <a href="./index.html" class="link"> 
+        <svg class="logo" width="80" height="24">
+          <use href="./images/symbol-defs.svg#icon-logo"></use>
+        </svg>
+      </a>
+      <nav class="navigation">
+       <ul class="nav__list">
+           <li class="list"><a href="./index.html" class="link nav__link text">Головна</a></li>
+           <li class="list"><a href="./about.html" class="link nav__link text">Про нас</a></li>
+           <li class="list"><a href="./products.html" class="link nav__link text">Продукція</a></li>
+           <li class="list"><a href="./partner.html" class="link nav__link text">Партнерам</a></li>
+           <li class="list"><a href="./contacts.html" class="link nav__link text">Контакти</a></li>
+       </ul>
+       <button type="button" class="header__button">Отримати пропозицію</button>
+      </nav>
+
+    </div>
+ </header>
+
+ <main>
+   <section class="container__orange product__container">
+    <h2 class="product__hero-title" >Ми пропонуємо снеки</h2>
+    <p class="title white">із зерен кукурудзи вищого сорту</p>
+    <img class="product__hero-image" src="./images/popcorn_orange.png" alt="popcorn with cheese">
+  </section>
+
+  <div class="marquee__text">
+    <div class="product__row">
+        <p class="title product__row-title">
+        <svg width="40" height="40" class="icon__circle">
+          <use href="./images/symbol-defs.svg#icon-circle"></use>
+        </svg> 100%   натуральний   
+        <svg width="40" height="40" class="icon__circle">
+          <use href="./images/symbol-defs.svg#icon-circle"></use>
+        </svg> 100%   натуральний  
+        <svg width="40" height="40" class="icon__circle">
+          <use href="./images/symbol-defs.svg#icon-circle"></use>
+        </svg> 100%   натуральний  
+        <svg width="40" height="40" class="icon__circle">
+          <use href="./images/symbol-defs.svg#icon-circle"></use>
+        </svg> 100%   натуральний
+      </p>
+      <p class="title product__row-title">
+        <svg width="40" height="40" class="icon__circle">
+          <use href="./images/symbol-defs.svg#icon-circle"></use>
+        </svg> 100%   натуральний   
+        <svg width="40" height="40" class="icon__circle">
+          <use href="./images/symbol-defs.svg#icon-circle"></use>
+        </svg> 100%   натуральний  
+        <svg width="40" height="40" class="icon__circle">
+          <use href="./images/symbol-defs.svg#icon-circle"></use>
+        </svg> 100%   натуральний  
+        <svg width="40" height="40" class="icon__circle">
+          <use href="./images/symbol-defs.svg#icon-circle"></use>
+        </svg>100%   натуральний
+      </p>
+    </div>
+  </div>
+
+  
+ </main>
 </body>
 </html>
