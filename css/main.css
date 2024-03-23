@@ -549,7 +549,7 @@ h1 {
   flex-direction: row;
   width: 1600%;
   gap: 20px;
-  animation: marquee__images-left 10s linear infinite alternate;
+  animation: marquee__images-left 15s linear infinite alternate;
 }
 
 .partners__block {
@@ -565,17 +565,25 @@ h1 {
   width: 20%;
 }
 
+.partners__blocks-second {
+  display: flex;
+  flex-direction: row;
+  width: 1600%;
+  gap: 20px;
+  animation: marquee__images-right 15s linear infinite alternate;
+}
+
 @keyframes marquee__images-left {
   0% {
     transform: translateX(0%);
   }
   100% {
-    transform: translateX(-200%);
+    transform: translateX(-225%);
   }
 }
 @keyframes marquee__images-right {
   0% {
-    transform: translateX(-200%);
+    transform: translateX(-225%);
   }
   100% {
     transform: translateX(0%);
