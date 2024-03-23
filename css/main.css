@@ -549,6 +549,7 @@ h1 {
   flex-direction: row;
   width: 1600%;
   gap: 20px;
+  margin-bottom: 20px;
   animation: marquee__images-left 15s linear infinite alternate;
 }
 
@@ -570,7 +571,7 @@ h1 {
   flex-direction: row;
   width: 1600%;
   gap: 20px;
-  animation: marquee__images-right 15s linear infinite alternate;
+  animation: marquee__images-left 15s linear infinite alternate;
 }
 
 @keyframes marquee__images-left {
@@ -994,6 +995,7 @@ h1 {
 }
 
 .product__hero-title {
+  position: relative;
   font-family: "Tektur", sans-serif;
   font-weight: 700;
   font-size: 72px;
@@ -1005,20 +1007,35 @@ h1 {
 }
 
 .product__container {
-  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding-bottom: 442px;
+}
+
+.product__hero-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 1280px;
 }
 
 .product__hero-image {
   position: absolute;
-  top: 340px;
-  left: 810px;
+  top: 200px;
+  left: 410px;
   width: 413px;
   height: 631px;
   z-index: 2;
 }
 
+.product__row-container {
+  width: 1440px;
+  margin: 0 auto;
+}
+
 .product__row-title {
+  position: relative;
   display: flex;
   align-items: center;
   margin: 0;
@@ -1030,12 +1047,14 @@ h1 {
   padding: 6px 0;
   border-bottom: 2px solid black;
   border-top: 2px solid black;
+  overflow: hidden;
 }
 
 .product__row {
   display: flex;
   align-items: center;
   width: 200%;
+  overflow: hidden;
   animation: marquee__text 10s linear infinite;
 }
 
