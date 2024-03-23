@@ -31,7 +31,6 @@
     padding: 6px 0;
     border-bottom: 2px solid black;
     border-top: 2px solid black;
-    overflow: hidden;
 }
 .product__row{
     display:flex;
@@ -43,9 +42,6 @@
     margin-left: 32px;
     margin-right: 32px;
 }
-// .icon__circle:first-child{
-//     margin-left: 0;
-// }
 
 .marquee__text p{
     white-space: nowrap;
