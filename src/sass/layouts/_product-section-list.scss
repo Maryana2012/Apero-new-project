@@ -1,0 +1,14 @@
+.product__item{
+    display: flex;
+    gap: 20px;
+}
+.product__button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 24px;
+    border: none;
+    padding: 12px;
+// width: 162px;
+    // height:` 11px;
+}
