@@ -24,21 +24,39 @@
     display: flex;
     width: 100%;
 }
+.footer__icon{
+    margin-right: 16px;
+}
 .footer__information-container{
     display: flex;
+    border-bottom: 1px solid var(--black-hover);;
+
 }
 .footer__information-item{
      width: 413px;
+     padding-bottom: 24px;
 }
 .footer__information-list{
     margin-bottom: 16px;
 }
-// .footer__question-container{
-//     display: flex;
-//     flex-direction: column;
-
-// }
 .footer__question-subtitle{
     margin-bottom: 24px;
     text-align: start;
+}
+.footer__button{
+    width: 100%;
+    margin-top: 24px;
+    font-weight: 500;
+    justify-content: center;
+    padding: 16px;
+}
+.footer__conditions-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 630px;
+    margin-top: 24px;
+}
+.footer__conditions{
+    font-size: 14px;
 }

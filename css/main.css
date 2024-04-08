@@ -127,6 +127,10 @@ h1 {
   color: var(--orange-dark);
 }
 
+.grey {
+  color: var(--grey-more-light);
+}
+
 :root {
   --black: #0f1019;
   --white: #fafafa;
@@ -138,6 +142,7 @@ h1 {
   --green: #035b57;
   --grey-dark: #808080;
   --grey-light: #c4c4c4;
+  --black-hover: #222439;
   --font-main: "Fixel Display", sans-serif;
   --font-title: "Tektur", sans-serif;
 }
@@ -1201,12 +1206,18 @@ h1 {
   width: 100%;
 }
 
+.footer__icon {
+  margin-right: 16px;
+}
+
 .footer__information-container {
   display: flex;
+  border-bottom: 1px solid var(--black-hover);
 }
 
 .footer__information-item {
   width: 413px;
+  padding-bottom: 24px;
 }
 
 .footer__information-list {
@@ -1216,4 +1227,24 @@ h1 {
 .footer__question-subtitle {
   margin-bottom: 24px;
   text-align: start;
+}
+
+.footer__button {
+  width: 100%;
+  margin-top: 24px;
+  font-weight: 500;
+  justify-content: center;
+  padding: 16px;
+}
+
+.footer__conditions-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 630px;
+  margin-top: 24px;
+}
+
+.footer__conditions {
+  font-size: 14px;
 }/*# sourceMappingURL=main.css.map */
