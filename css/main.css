@@ -1326,21 +1326,23 @@ h1 {
   color: var(--black);
 }
 
-.container__container {
+.contacts__container {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
 }
 
 .contacts__block-first {
+  position: relative;
   border-radius: 24px;
   padding: 24px;
-  width: 365px;
+  width: 799px;
   height: 237px;
   background: linear-gradient(137deg, #de4f12 12.37%, #f7d385 100%);
 }
 
 .contacts__block {
+  position: relative;
   border-radius: 24px;
   padding: 24px;
   width: 365px;
@@ -1350,5 +1352,22 @@ h1 {
 
 .contacts__title {
   font-size: 32px;
-  color: var(--white);
+  margin-bottom: 24px;
+  text-align: start;
+}
+
+.contacts__list {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.contacts__list:last-child {
+  margin-bottom: 0;
+}
+
+.contacts__icon {
+  position: absolute;
+  bottom: 24px;
+  right: 24px;
 }/*# sourceMappingURL=main.css.map */
