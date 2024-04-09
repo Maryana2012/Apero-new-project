@@ -17,8 +17,11 @@
     margin-left: 236px;
 }
 .footer__list{
+    display: flex;
+    align-items: center;
     width: 165px;
     padding: 16px;
+
 }
 .footer__link{
     display: flex;
@@ -37,7 +40,12 @@
      padding-bottom: 24px;
 }
 .footer__information-list{
+    display: flex;
+    align-items: center;
     margin-bottom: 16px;
+}
+.footer__information-list:last-child{
+    margin-bottom: 0;
 }
 .footer__question-subtitle{
     margin-bottom: 24px;
