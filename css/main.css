@@ -1324,4 +1324,31 @@ h1 {
   letter-spacing: 0.02em;
   text-transform: uppercase;
   color: var(--black);
+}
+
+.container__container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.contacts__block-first {
+  border-radius: 24px;
+  padding: 24px;
+  width: 365px;
+  height: 237px;
+  background: linear-gradient(137deg, #de4f12 12.37%, #f7d385 100%);
+}
+
+.contacts__block {
+  border-radius: 24px;
+  padding: 24px;
+  width: 365px;
+  height: 237px;
+  background: var(--white);
+}
+
+.contacts__title {
+  font-size: 32px;
+  color: var(--white);
 }/*# sourceMappingURL=main.css.map */

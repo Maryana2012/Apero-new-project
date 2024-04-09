@@ -4,13 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacts</title>
-    <link
+    <!-- <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
     crossorigin="anonymous"
     referrerpolicy="no-referrer"
-  />
+  /> -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../src/fonts/fonts.css">
+    <link rel="stylesheet" href="../css/main.min.css">
     <link rel="stylesheet" href="../css/main.min.css">
 </head>
 <body>
@@ -34,5 +39,103 @@
 
     </div>
  </header>
+
+ <main class="container__grey">
+  <section class="container ">
+    <h2 class="title partner__title">Ми на зв'язку</h2>
+    <p class="subtitle partner__subtitle">Потрібна консультація? Ми радо допоможемо</p>
+    <div class="contacts__container">
+      <div class="list contacts__block-first">
+        <h3 class="title contacts__title">Центральний офіс</h3>
+        <ul >
+          <li class="list">
+            <svg class="footer__icon" width="24" height="24">
+              <use href="./images/symbol-defs.svg#icon-phone"></use>
+            </svg>
+            <a class="link text white" href="">+38 (066) 74 72 803</a>
+          </li>
+          <li class="list">
+            <svg class="footer__icon" width="24" height="24">
+              <use href="./images/symbol-defs.svg#icon-phone"></use>
+            </svg>
+            <a class="link text white" href="">+38 (096) 08 97 803</a>
+          </li>
+          <li class="list">
+            <svg class="footer__icon" width="24" height="24">
+              <use href="./images/symbol-defs.svg#icon-mail"></use>
+            </svg>
+            <a class="link text white" href="">office.apero@gmail.com</a>
+          </li>
+        </ul>
+      </div>
+      <div class="list contacts__block"></div>
+      <div class="list contacts__block"></div>
+      <div class="list contacts__block"></div>
+      <div class="list contacts__block"></div>
+    </ul>
+  </section>
+ </main>
+
+ <footer class="footer">
+  <div class="footer__container">
+    <div class="link__container">
+      <svg width="197" height="59">
+        <use href="./images/symbol-defs.svg#icon-logo"></use>
+      </svg>
+      <ul class="item__container">
+        <li class="list footer__list"><a class="link footer__link text white" href="">Про нас</a></li>
+        <li class="list footer__list"><a class="link footer__link text white" href="">Продукція</a></li>
+        <li class="list footer__list"><a class="link footer__link text white" href="">Партнерам</a></li>
+        <li class="list footer__list"><a class="link footer__link text white" href="">Контакти</a></li>
+      </ul>
+    </div>
+
+    <div class="footer__information-container">
+      <ul class="footer__information-item">
+        <li class="list footer__information-list"> 
+          <svg class="footer__icon" width="24" height="24">
+            <use href="./images/symbol-defs.svg#icon-location"></use>
+          </svg>
+          <a class="link text white" href="">60425 с.Купка, Чернівецька обл.</a>
+        </li>
+        <li class="list footer__information-list">
+          <svg class="footer__icon" width="24" height="24">
+            <use href="./images/symbol-defs.svg#icon-mail"></use>
+          </svg>
+          <a class="link text white" href="">office.apero@gmail.com</a>
+        </li>
+      </ul>
+
+      <ul class="footer__information-item">
+        <li class="list footer__information-list">
+          <svg class="footer__icon" width="24" height="24">
+            <use href="./images/symbol-defs.svg#icon-phone"></use>
+          </svg>
+          <a class="link text white" href="">+38 (066) 74 72 803</a>
+        </li>
+        <li class="list footer__information-list">
+          <svg class="footer__icon" width="24" height="24">
+            <use href="./images/symbol-defs.svg#icon-phone"></use>
+          </svg>
+          <a class="link text white" href="">+38 (096) 08 97 803</a>
+        </li>
+      </ul>
+
+      <div class="footer__information-item">
+        <p class="subtitle white footer__question-subtitle">Маєте запитання чи пропозиції?</p>
+        <p class="text white">Заповніть заявку і ми зв’яжемось з Вами </br>найближчим часом</p>
+        <button class="button footer__button">Заповнити заявку</button>
+      </div>
+    </div>
+
+    <ul class="footer__conditions-item">
+      <li class="list"><a class="link text grey footer__conditions " href="">Політика конфіденційності</a></li>
+      <li class="list"><a class="link text grey footer__conditions" href="">Договір оферти</a></li>
+      <li class="list"><a class="link text grey footer__conditions" href="">Умови надання послуг</a></li>
+    </ul>
+
+  </div>
+
+</footer>
 </body>
 </html>
