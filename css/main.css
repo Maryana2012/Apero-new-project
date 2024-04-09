@@ -165,8 +165,6 @@ h1 {
   justify-content: space-between;
   padding: 6px;
   border-radius: 32px;
-  background-color: rgba(255, 255, 255, 0);
-  border: 2px solid var(--white);
   margin: 0 auto;
 }
 
@@ -202,7 +200,7 @@ h1 {
   border: none;
   border-radius: 24px;
   padding: 16px 24px;
-  background-color: var(--grey-more-light);
+  background-color: var(--white);
   align-items: center;
   font-family: "Fixel Display", sans-serif;
   font-weight: 500;
@@ -210,6 +208,18 @@ h1 {
   line-height: 120%;
   color: var(--black);
   margin-left: 32px;
+}
+
+.header__second {
+  background-color: var(--white);
+}
+
+.nav__link-second {
+  color: var(--black);
+}
+
+.header__button-second {
+  background-color: var(--grey-more-light);
 }
 
 .hero__section-container {
