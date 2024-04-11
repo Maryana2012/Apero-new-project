@@ -239,7 +239,7 @@ h1 {
   margin: 0 auto;
   width: 1440px;
   margin-top: 119px;
-  padding-bottom: 88px;
+  padding: 0 0 88px 0;
 }
 
 .hero__container-orange {
