@@ -58,6 +58,10 @@
     color: var(--black);
     margin-left: 32px;
 }
+.header__button:hover,
+.header__button:focus{
+    cursor: pointer;
+}
 .header__second{
     background-color: var(--white);
     

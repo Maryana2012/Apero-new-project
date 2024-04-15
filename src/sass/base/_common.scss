@@ -75,6 +75,9 @@ h1{
     line-height: 140%;
     color: var(--black);  
 }
+.button:hover, button:focus{
+    cursor: pointer;
+}
 .button__image{
     margin-left: 12px;
 }
@@ -83,6 +86,9 @@ h1{
     font-weight: 500;
     font-size: 16px;
     line-height: 140%;
+}
+.link{
+    cursor: pointer;
 }
 .white{
     color: var(--white);

@@ -11,6 +11,10 @@
     border: none;
     padding: 12px;
 }
+.product__button:hover,
+.product__button:focus{
+    cursor: pointer;
+}
 .product__list-container{
     display: flex;
     flex-wrap: wrap;
