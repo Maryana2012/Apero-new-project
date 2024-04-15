@@ -230,6 +230,13 @@ h1 {
   background-color: var(--grey-more-light);
 }
 
+.active__link {
+  border-radius: 24px;
+  padding: 16px;
+  height: 43px;
+  border: 2px solid var(--grey-more-light);
+}
+
 .hero__section-container {
   position: relative;
   display: flex;
