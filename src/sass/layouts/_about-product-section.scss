@@ -1,5 +1,6 @@
 .about__product-title{
     text-align: start;
+    margin-top: 24px;
 }
 .about__product-text{
     font-family: "Fixel Display", sans-serif;
@@ -26,8 +27,9 @@
     position: relative;
     border-radius: 24px;
     padding: 24px;
-    width: 365px;
-    height: 272px;
+    // width: 365px;
+    width: 413px;
+    height: 320px;
 }
 .about__product__block-orange{
     background: linear-gradient(137deg, #de4f12 12.37%, #f7d385 100%);
