@@ -15,9 +15,6 @@
     justify-content:space-between;
     padding: 6px;
     border-radius: 32px;
-    // background-color: rgba(255, 255, 255, 0);
-    // background-color: var(--white);
-    // border: 2px solid var(--white);
     margin: 0 auto;
 }
 
@@ -58,10 +55,7 @@
     color: var(--black);
     margin-left: 32px;
 }
-.header__button:hover,
-.header__button:focus{
-    cursor: pointer;
-}
+
 .header__second{
     background-color: var(--white);
     
@@ -75,8 +69,6 @@
 .active__link{
     border-radius: 24px;
     padding: 16px;
-    // width: 98px;
     height: 43px;
     border: 2px solid var(--grey-more-light);
-    // color: tomato;
 }
