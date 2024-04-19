@@ -155,20 +155,14 @@ h1 {
   --font-title: "Tektur", sans-serif;
 }
 
-.header-container {
-  position: relative;
-  display: flex;
-  width: 1280px;
-  margin: 0 auto;
-}
-
 .header {
-  position: absolute;
-  top: 16px;
-  left: 0;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
   z-index: 2;
   display: flex;
-  width: 100%;
+  width: 1280px;
   align-items: center;
   justify-content: space-between;
   padding: 6px;
@@ -196,10 +190,8 @@ h1 {
 
 .nav__link {
   display: flex;
-  height: 35px;
   align-items: center;
   justify-content: center;
-  font-weight: 400;
   color: var(--white);
 }
 
@@ -235,6 +227,10 @@ h1 {
   padding: 16px;
   height: 43px;
   border: 2px solid var(--grey-more-light);
+}
+
+.logo__fixed {
+  display: none;
 }
 
 .hero__section-container {
